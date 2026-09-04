@@ -1,0 +1,48 @@
+{
+  "name": "catalit-replica",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Authorized high-fidelity replica of catalit.in",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "npx serve out -l 3000",
+    "typecheck": "tsc --noEmit",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "crawl": "node scripts/crawl-reference.mjs",
+    "assets": "node scripts/capture-assets.mjs",
+    "capture:reference": "node scripts/capture-reference.mjs",
+    "capture:local": "node scripts/capture-local.mjs",
+    "compare": "node scripts/compare-screenshots.mjs",
+    "visual-qa": "node scripts/run-visual-qa.mjs",
+    "validate:links": "node scripts/validate-links.mjs",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "1.2.3",
+    "clsx": "2.1.1",
+    "framer-motion": "11.18.2",
+    "lucide-react": "0.469.0",
+    "next": "15.1.6",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "tailwind-merge": "2.6.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.49.1",
+    "@types/node": "22.10.7",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "autoprefixer": "10.4.20",
+    "eslint": "8.57.1",
+    "eslint-config-next": "15.1.6",
+    "pixelmatch": "6.0.0",
+    "pngjs": "7.0.0",
+    "postcss": "8.5.1",
+    "prettier": "3.4.2",
+    "sharp": "0.33.5",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.3"
+  }
+}

@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.log
+.DS_Store
+.claude-flow/data/
+/playwright-report/
+/test-results/
+/.playwright-cache/
+public/screenshots/**/*.png
+!public/screenshots/**/.gitkeep
+docs/data/*.json
+.reference-cache/
