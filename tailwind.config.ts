@@ -13,9 +13,14 @@ const config: Config = {
       screens: { '2xl': '1400px' },
     },
     extend: {
-      fontFamily: {
-        sans: ['var(--font-poppins)', 'Poppins', 'sans-serif'],
-      },
+      /*
+       * fontFamily.sans is deliberately NOT overridden. The reference keeps
+       * Tailwind's stock ui-sans-serif/system-ui stack and applies Poppins only
+       * through the `body` rule in globals.css. Pages that wrap content in
+       * `font-sans` (e.g. /about) therefore render in the SYSTEM font, not
+       * Poppins — overriding this here re-wraps their paragraphs. See
+       * docs/DECISIONS.md (D-006).
+       */
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
