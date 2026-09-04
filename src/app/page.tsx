@@ -1,3 +1,5 @@
+import { SiteShell } from '@/components/layout/SiteShell';
+import { SHELL } from '@/data/wrappers';
 import { Hero } from '@/components/sections/Hero';
 import { Features } from '@/components/sections/Features';
 import { Sustainability } from '@/components/sections/Sustainability';
@@ -9,7 +11,7 @@ import { Faq } from '@/components/sections/Faq';
 
 export default function HomePage() {
   return (
-    <>
+    <SiteShell wrapperClassName={SHELL.home.wrapper} mainClassName={SHELL.home.main}>
       <Hero />
       <Features />
       <Sustainability />
@@ -18,6 +20,6 @@ export default function HomePage() {
       <WhatsAppCta />
       <ResourceCards />
       <Faq />
-    </>
+    </SiteShell>
   );
 }

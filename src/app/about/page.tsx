@@ -12,6 +12,8 @@ import {
   Users,
 } from 'lucide-react';
 import Link from 'next/link';
+import { SiteShell } from '@/components/layout/SiteShell';
+import { SHELL } from '@/data/wrappers';
 import { Reveal } from '@/components/ui/Reveal';
 import {
   ABOUT_CTA,
@@ -33,7 +35,7 @@ const NETWORK_ICONS = [UserPlus, Truck, ShieldCheck];
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-slate-50 text-gray-900 font-sans pt-24">
+    <SiteShell wrapperClassName={SHELL.about.wrapper} mainClassName={SHELL.about.main}>
       <section className="relative py-20 px-4 bg-gradient-to-br from-emerald-900 to-slate-900 text-white overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
@@ -216,6 +218,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-    </div>
+    </SiteShell>
   );
 }
