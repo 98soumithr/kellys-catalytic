@@ -59,3 +59,22 @@ export const FOOTER_LEGAL_LINKS = [
   { label: 'Terms of Service', href: '#' },
   { label: 'Cookie Policy', href: '#' },
 ] as const;
+
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://catalit.in';
+
+/** The 13 canonical paths published in the reference sitemap.xml. */
+export const SITEMAP_ROUTES = [
+  '/',
+  '/about',
+  '/resource-center',
+  '/knowledge-base',
+  '/pgm-price-tracker',
+  '/automotive-catalytic-converter',
+  '/ceramic-monolith',
+  '/oxygen-sensor',
+  '/e-waste-management',
+  '/converter-recycling-process',
+  '/material-recovery-pgm-prices',
+  '/anti-theft-compliance',
+  '/service-areas',
+] as const;
