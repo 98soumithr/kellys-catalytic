@@ -39,14 +39,14 @@ export function ArticleBlocks({ blocks }: { blocks: Block[] }) {
         break;
       case 'heading':
         push(
-          <h2 key={key} className="text-2xl font-semibold mb-6 text-gray-800">
+          <h2 key={key} className={block.className}>
             {block.text}
           </h2>,
         );
         break;
       case 'paragraph':
         push(
-          <p key={key} className="text-lg text-gray-600 leading-relaxed mb-4 last:mb-0">
+          <p key={key} className={block.className}>
             {block.text}
           </p>,
         );
@@ -54,7 +54,7 @@ export function ArticleBlocks({ blocks }: { blocks: Block[] }) {
       case 'list':
         push(
           block.ordered === 'disc' ? (
-            <ul key={key} className="text-gray-600 space-y-2 list-disc list-inside">
+            <ul key={key} className={block.className}>
               {block.items.map((item, i) => (
                 <li key={i}>
                   <ListEntry item={item} />
@@ -62,7 +62,7 @@ export function ArticleBlocks({ blocks }: { blocks: Block[] }) {
               ))}
             </ul>
           ) : (
-            <ul key={key} className="space-y-4 text-lg text-gray-600">
+            <ul key={key} className={block.className}>
               {block.items.map((item, i) => (
                 <li key={i} className="flex items-start">
                   <ListEntry item={item} />

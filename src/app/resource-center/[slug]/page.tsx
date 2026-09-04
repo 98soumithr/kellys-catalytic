@@ -8,7 +8,8 @@ import { ARTICLES, ARTICLE_SLUGS } from '@/content/articles';
  * article, so both are generated from one component.
  */
 export function generateStaticParams() {
-  return ARTICLE_SLUGS.map((slug) => ({ slug }));
+  // /service-areas has its own route file; everything else is a resource article.
+  return ARTICLE_SLUGS.filter((slug) => slug !== 'service-areas').map((slug) => ({ slug }));
 }
 
 export default async function ResourceArticlePage({

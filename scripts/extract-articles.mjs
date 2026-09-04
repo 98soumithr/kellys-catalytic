@@ -12,6 +12,7 @@ import { chromium } from '@playwright/test';
 import { DIRS, ROOT } from './config.mjs';
 
 const SLUGS = [
+  'service-areas',
   'automotive-catalytic-converter',
   'ceramic-monolith',
   'oxygen-sensor',
@@ -31,12 +32,13 @@ const extract = () => {
     for (const node of container.children) {
       const cls = node.className || '';
       if (node.tagName === 'H2') {
-        blocks.push({ type: 'heading', text: t(node) });
+        blocks.push({ type: 'heading', text: t(node), className: cls });
       } else if (node.tagName === 'P') {
-        blocks.push({ type: 'paragraph', text: t(node) });
+        blocks.push({ type: 'paragraph', text: t(node), className: cls });
       } else if (node.tagName === 'UL') {
         blocks.push({
           type: 'list',
+          className: cls,
           ordered: cls.includes('list-disc') ? 'disc' : 'check',
           items: [...node.querySelectorAll(':scope > li')].map((li) => {
             const lead = li.querySelector('span.font-bold, span.font-semibold');
