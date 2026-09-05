@@ -4,13 +4,13 @@ export interface TitledBlock {
   body: string;
 }
 
-export const ABOUT_HERO_SUBTITLE = "South India's Trusted Partner in Catalytic Converter & E-Waste Recycling";
+export const ABOUT_HERO_SUBTITLE = "Hawaii's Trusted Partner in Catalytic Converter & E-Waste Recycling";
 
 export const ABOUT_STORY = {
   badge: "Established 2020",
   title: "Our Story",
   body:
-    "Founded in 2020 in Erattupetta, Kerala, Kelly's Catalytic began with a simple mission: to bring transparency and efficiency to the catalytic converter recycling industry. Backed by the expertise of Infinitoq, we started by serving Kottayam and its neighboring districts. Through relentless hard work and a \"round-the-clock\" dedication to our clients, we have evolved year after year to become an industry leader.",
+    "Founded in 2020 in Maui, Hawaii, Tri-Metal began with a simple mission: to bring transparency and efficiency to the catalytic converter recycling industry. we started by serving Maui and its neighboring districts. Through relentless hard work and a \"round-the-clock\" dedication to our clients, we have evolved year after year to become an industry leader.",
 };
 
 export const WHAT_WE_DO_HEADING = {
@@ -39,14 +39,14 @@ export const WHAT_WE_DO: TitledBlock[] = [
 export const WHY_PARTNER_HEADING = {
   title: "Why Partner With Us",
   intro:
-    "Today, Kelly's Catalytic covers every corner of South India. Our growth is fueled by a \"customer-first\" philosophy that includes:",
+    "Today, Tri-Metal covers every corner of Hawaii. Our growth is fueled by a \"customer-first\" philosophy that includes:",
 };
 
 export const WHY_PARTNER: TitledBlock[] = [
   {
     title: "Expert Presence",
     body:
-      "Six dedicated teams across Kerala, Tamil Nadu, and Karnataka for on-site collection and valuation.",
+      "Six dedicated teams across Maui, Oahu, and Hawaii Island for on-site collection and valuation.",
   },
   {
     title: "Seamless Logistics",
@@ -68,13 +68,13 @@ export const WHY_PARTNER: TitledBlock[] = [
 export const VISION = {
   title: "Our Vision",
   body:
-    "\"At Kelly's Catalytic, we aren't just collectors; we are partners in sustainability. We remain flexible, adaptive, and committed to providing a professional recycling bridge between our clients and the global green economy.\"",
+    "\"At Tri-Metal, we aren't just collectors; we are partners in sustainability. We remain flexible, adaptive, and committed to providing a professional recycling bridge between our clients and the global green economy.\"",
 };
 
 export const NETWORK = {
   title: "Join Our Growing Network",
   intro:
-    "Kelly's Catalytic is expanding across South India, and we want you to grow with us. Whether you are an industry veteran, an ambitious newcomer, or an independent supplier/dealer, we offer a professional platform to maximize your potential in the catalytic converter and E-waste market.",
+    "Tri-Metal is expanding across Hawaii, and we want you to grow with us. Whether you are an industry veteran, an ambitious newcomer, or an independent supplier/dealer, we offer a professional platform to maximize your potential in the catalytic converter and E-waste market.",
   quote: "\"Let's build a sustainable future together.\"",
   contact: "Connect with us today: +91 9895397781",
 };
@@ -91,14 +91,14 @@ export const NETWORK_CARDS: TitledBlock[] = [
       "Looking for a reliable partner for your inventory? We offer the most competitive market valuations, spot settlements, and seamless collection services.",
   },
   {
-    title: "Why Kelly's Catalytic?",
+    title: "Why Tri-Metal?",
     body:
-      "Enjoy dedicated customer support, exclusive network perks, and the trust of a brand backed by Infinitoq.",
+      "Enjoy dedicated customer support, exclusive network perks,.",
   },
 ];
 
 export const ABOUT_CTA = {
-  title: "Ready to Experience the Kelly's Catalytic Difference?",
+  title: "Ready to Experience the Tri-Metal Difference?",
   body: "Join thousands of satisfied partners who trust us for their recycling needs. Get a quote today.",
-  button: "Start Selling with Kelly's Catalytic",
+  button: "Start Selling with Tri-Metal",
 };

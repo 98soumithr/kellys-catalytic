@@ -1,6 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 
-const PORT = 3100;
+const PORT = Number(process.env.E2E_PORT ?? 4317);
 
 export default defineConfig({
   testDir: './tests',
@@ -33,7 +33,9 @@ export default defineConfig({
   webServer: {
     command: `npx serve out -l ${PORT} --no-clipboard`,
     url: `http://localhost:${PORT}`,
-    reuseExistingServer: !process.env.CI,
+    // Never reuse a stray listener: an unrelated project on this port would be
+    // silently tested instead of this one, and the run would look like a pass.
+    reuseExistingServer: false,
     timeout: 120000,
   },
 });

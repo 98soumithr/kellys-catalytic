@@ -26,13 +26,11 @@ export function Sustainability() {
                 <span className="gradient-text">Sustainable Resource Recovery</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Kelly&apos;s Catalytic has grown from a local collector into South India&apos;s premier partner for
-                catalytic converter and PGM recycling. With six dedicated teams across Kerala, Tamil
-                Nadu, and Karnataka, we provide expert on-site valuation, instant settlements, and a
-                commitment to eco-friendly practices. Whether it&apos;s automotive components or
-                high-value E-waste, we combine industry-leading payouts with a seamless,
-                logistics-backed experience to ensure your materials are recycled responsibly and
-                profitably.
+                Tri-Metal Company LLC buys spent catalytic converters, autocatalyst ceramics,
+                oxygen sensors and e-waste across Maui and the wider Hawaiian Islands. Every unit is
+                assessed on its actual platinum, palladium and rhodium content rather than a flat
+                rate, so you can see how a quote was reached. Recovered material is passed to
+                licensed refiners, keeping precious metals in circulation and out of landfill.
                 <Link
                   href="/about"
                   className="inline-flex items-center ml-2 text-emerald-600 font-bold hover:text-emerald-700 transition-colors group cursor-pointer"

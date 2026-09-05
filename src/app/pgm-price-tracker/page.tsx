@@ -20,7 +20,7 @@ export default function PgmPriceTrackerPage() {
                 transactions.
               </p>
               <p className="text-base text-gray-600 leading-relaxed">
-                Our live tracker provides current market data in India, allowing recyclers,
+                The tracker below shows current market data, so recyclers,
                 collectors, and industry professionals to make informed decisions based on the
                 latest global commodity trends and precious metal fluctuations.
               </p>
@@ -36,7 +36,7 @@ export default function PgmPriceTrackerPage() {
               Market Insight
             </span>
             <p className="text-gray-700 text-sm italic">
-              Note: Market prices are subject to global volatility. Kelly&apos;s Catalytic provides these live
+              Note: Market prices are subject to global volatility. Tri-Metal shows these live
               rates for informational purposes to help our partners estimate the value of their
               materials transparently.
             </p>

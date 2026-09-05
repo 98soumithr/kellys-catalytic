@@ -79,7 +79,7 @@ export const RESOURCE_CENTER_CARDS: ResourceCenterCard[] = [
     "srLabel": "View Anti-Theft & Law Compliance",
     "image": "/images/card-anti-theft-law-compliance.webp",
     "title": "Anti-Theft & Law Compliance",
-    "description": "Setting the gold standard for ethics and legal transparency in the Indian recycling sector.",
+    "description": "Setting the gold standard for ethics and legal transparency in the Hawaii recycling sector.",
     "cta": "Learn More"
   },
   {
@@ -87,7 +87,7 @@ export const RESOURCE_CENTER_CARDS: ResourceCenterCard[] = [
     "srLabel": "View Our Service Areas: Nationwide Coverage",
     "image": "/images/card-our-service-areas-nationwide-coverage.webp",
     "title": "Our Service Areas: Nationwide Coverage",
-    "description": "Connecting sellers from Delhi to Chennai through a trusted procurement network.",
+    "description": "Connecting sellers from Hilo to Honolulu through a trusted procurement network.",
     "cta": "Learn More"
   },
   {

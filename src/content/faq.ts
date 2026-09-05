@@ -15,14 +15,14 @@ export const HOME_FAQ: FaqItem[] = [
       "Catalytic converters are emission control devices found in vehicles that contain precious metals like platinum, palladium, and rhodium. We buy them to recycle these valuable metals, contributing to environmental sustainability while offering fair compensation to sellers.",
   },
   {
-    question: "Are you a legit Catalytic Converter buyer in India(South India)?",
+    question: "Are you a legit Catalytic Converter buyer in Hawaii(Hawaii)?",
     answer:
-      "Yes, we are a fully legit Catalytic Converter buyer in India(South India). We follow all legal and environmental guidelines set by the government, including the latest CPCB norms. Whether you are in North or South India, we provide legal documentation and fair, transparent transactions for every sale, covering all major states. We have a strong presence in Kerala, Tamil Nadu, and Karnataka. If you are looking for a trusted catalytic converter buyer in cities like Kochi, Chennai, or Bangalore, etc., we are your top choice for legal and high-value recycling.",
+      "Yes, we are a fully legit Catalytic Converter buyer in Hawaii(Hawaii). We follow all legal and environmental guidelines set by the government, including the latest CPCB norms. Whether you are in North or Hawaii, we provide legal documentation and fair, transparent transactions for every sale, covering all major states. We have a strong presence in Maui, Oahu, and Hawaii Island. If you are looking for a trusted catalytic converter buyer in cities like Kochi, Honolulu, or Bangalore, etc., we are your top choice for legal and high-value recycling.",
   },
   {
-    question: "Why is your company #1 ranked in South India?",
+    question: "Why should I sell to you?",
     answer:
-      "We are ranked #1 in South India because we offer the most competitive payouts and have the largest collection network across the region. Our customers from Kerala to Karnataka trust us because of our advanced testing technology and our ability to reach even remote locations for bulk collections.",
+      "We offer the most competitive payouts and have the largest collection network across the region. Our customers from Maui to Hawaii Island trust us because of our advanced testing technology and our ability to reach even remote locations for bulk collections.",
   },
   {
     question: "Will you buy every catalytic converter?",
@@ -32,7 +32,7 @@ export const HOME_FAQ: FaqItem[] = [
   {
     question: "Do you buy Diesel vehicle catalytic converters?",
     answer:
-      "Yes, we buy Diesel vehicle catalytic converters (DPF/DOC). Our recycling services cover all types of vehicles, including Petrol, Diesel, CNG, and Hybrid cars and commercial vehicles across India.",
+      "Yes, we buy Diesel vehicle catalytic converters (DPF/DOC). Our recycling services cover all types of vehicles, including Petrol, Diesel, CNG, and Hybrid cars and commercial vehicles across Hawaii.",
   },
   {
     question: "Does every catalytic converter have the same value?",
@@ -50,23 +50,23 @@ export const HOME_FAQ: FaqItem[] = [
       "Yes, we buy converters with broken or damaged ceramic. However, please note that if there is a loss of ceramic material, the final value may change accordingly. We weigh the remaining material to give you an honest payout.",
   },
   {
-    question: "Will you buy catalytic converters from outside South India?",
+    question: "Will you buy catalytic converters from outside Hawaii?",
     answer:
-      "Yes! While we are the leaders in the South, we are expanding across India. If you have bulk lots, our team can schedule a visit to your location anywhere in India. For single pieces, you can safely parcel them to our warehouse. Please contact our support team for shipping instructions and a free quote.",
+      "Yes! While we are the leaders in the South, we are expanding across Hawaii. If you have bulk lots, our team can schedule a visit to your location anywhere in Hawaii. For single pieces, you can safely parcel them to our warehouse. Please contact our support team for shipping instructions and a free quote.",
   },
   {
     question: "Do you provide door-step collection?",
     answer:
-      "Yes! As South India's leading collector, we offer free pickup services for bulk quantities. For individual units, you can visit our nearest collection center or send us photos for an instant digital valuation.",
+      "Yes! As Hawaii's leading collector, we offer free pickup services for bulk quantities. For individual units, you can visit our nearest collection center or send us photos for an instant digital valuation.",
   },
   {
-    question: "How do I sell my catalytic converter to Kelly's Catalytic?",
+    question: "How do I sell my catalytic converter to Tri-Metal?",
     answer:
-      "It's very simple! Just take a picture of your cat's Part Number and send it to us via WhatsApp. Our team will analyze the unit using our professional catalogue and assist you through the entire process. Whether you are a local garage in Tamil Nadu or an individual in Kerala, we make the selling process fast and hassle-free.",
+      "It's very simple! Just take a picture of your cat's Part Number and send it to us via WhatsApp. Our team will analyze the unit using our professional catalogue and assist you through the entire process. Whether you are a local garage in Oahu or an individual in Maui, we make the selling process fast and hassle-free.",
   },
   {
     question: "How quickly will I get paid?",
     answer:
-      "We offer instant payouts via UPI, Bank Transfer, or Cash (where permitted) immediately after the inspection and grading of your material.",
+      "We offer instant payouts via ACH, Zelle, or Cash (where permitted) immediately after the inspection and grading of your material.",
   },
 ];

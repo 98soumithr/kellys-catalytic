@@ -64,10 +64,12 @@ test('knowledge base search filters the accordion', async ({ page }) => {
 
 test('contact actions use the right protocols', async ({ page }) => {
   await page.goto('/');
+  // Assert the shape, not the literal number: contact details are configurable
+  // per deployment, so hardcoding one here just breaks whenever it is updated.
   const tel = page.locator('a[href^="tel:"]').first();
-  await expect(tel).toHaveAttribute('href', 'tel:+919895397781');
+  await expect(tel).toHaveAttribute('href', /^tel:\+[1-9]\d{6,14}$/);
   const wa = page.locator('a[href*="wa.me"]').first();
-  await expect(wa).toHaveAttribute('href', 'https://wa.me/919895397781');
+  await expect(wa).toHaveAttribute('href', /^https:\/\/wa\.me\/[1-9]\d{6,14}$/);
   for (const link of await page.locator('a[target="_blank"]').all()) {
     await expect(link).toHaveAttribute('rel', /noopener/);
   }

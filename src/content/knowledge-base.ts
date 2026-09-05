@@ -8,8 +8,8 @@ import type { FaqItem } from './faq';
 export const KNOWLEDGE_BASE = {
   h1: "Knowledge Base",
   intro:
-    "Comprehensive answers to your questions about catalytic converter recycling, valuation, precious metal recovery, and our services across South India.",
-  searchPlaceholder: "Search FAQs... (e.g., OEM, Rhodium, Price, XRF, Kerala)",
+    "Comprehensive answers to your questions about catalytic converter recycling, valuation, precious metal recovery, and our services across Hawaii.",
+  searchPlaceholder: "Search FAQs... (e.g., OEM, Rhodium, Price, XRF, Maui)",
 };
 
 export const KNOWLEDGE_BASE_ITEMS: FaqItem[] = [
@@ -41,7 +41,7 @@ export const KNOWLEDGE_BASE_ITEMS: FaqItem[] = [
   {
     question: "How much will a junkyard pay for my catalytic converter?",
     answer:
-      "Junkyard prices for catalytic converters vary widely—typically ranging from ₹2,000 to ₹15,000+ depending on the vehicle type, converter condition, and current PGM prices. Standard aftermarket converters might fetch ₹2,000-₹4,000, while OEM gasoline converters can bring ₹5,000-₹10,000. Premium vehicle converters (BMW, Mercedes, hybrid vehicles) can command ₹15,000-₹40,000 or more. However, many junkyards lack proper valuation tools and may undervalue your unit. At Kelly's Catalytic, we use XRF analysis and database lookups to ensure you receive fair market value based on actual precious metal content, not generic estimates.",
+      "Junkyard prices for catalytic converters vary widely—varying with market rates depending on the vehicle type, converter condition, and current PGM prices. Standard aftermarket converters might fetch market rates while OEM gasoline converters can bring market rates. Premium vehicle converters (BMW, Mercedes, hybrid vehicles) can command market rates or more. However, many junkyards lack proper valuation tools and may undervalue your unit. At Tri-Metal, we use XRF analysis and database lookups to ensure you receive fair market value based on actual precious metal content, not generic estimates.",
   },
   {
     question: "Does a rusty exterior reduce the price?",
@@ -76,7 +76,7 @@ export const KNOWLEDGE_BASE_ITEMS: FaqItem[] = [
   {
     question: "Is it better to sell the converter whole or de-canned?",
     answer:
-      "Selling the converter intact (whole) is generally easier and safer, especially if you're unsure about de-canning procedures. However, de-canning (removing the ceramic substrate from the steel shell) can sometimes yield better prices because it allows direct assessment of the ceramic weight and quality, eliminating guesswork. At Kelly's Catalytic, we accept both forms and provide fair valuations for either. If you de-can, handle the ceramic carefully—avoid breaking it into powder, as loose dust is harder to evaluate and may result in lower offers. Whole units are preferred for traceability and compliance purposes.",
+      "Selling the converter intact (whole) is generally easier and safer, especially if you're unsure about de-canning procedures. However, de-canning (removing the ceramic substrate from the steel shell) can sometimes yield better prices because it allows direct assessment of the ceramic weight and quality, eliminating guesswork. At Tri-Metal, we accept both forms and provide fair valuations for either. If you de-can, handle the ceramic carefully—avoid breaking it into powder, as loose dust is harder to evaluate and may result in lower offers. Whole units are preferred for traceability and compliance purposes.",
   },
   {
     question: "Does the weight or size of the steel shell affect the price?",
@@ -86,27 +86,27 @@ export const KNOWLEDGE_BASE_ITEMS: FaqItem[] = [
   {
     question: "What is an XRF analyzer and do you use one?",
     answer:
-      "XRF (X-Ray Fluorescence) analyzers are precision instruments that measure the elemental composition of materials without damaging them. In catalytic converter recycling, XRF guns detect and quantify Platinum, Palladium, and Rhodium concentrations in ceramic substrates, providing accurate PGM content readings in seconds. Yes, Kelly's Catalytic uses XRF technology to ensure fair, transparent pricing. Unlike visual estimates or weight-based guesses, XRF analysis gives exact precious metal percentages, guaranteeing you receive accurate market value. This technology eliminates underpayment and builds trust between sellers and buyers.",
+      "XRF (X-Ray Fluorescence) analyzers are precision instruments that measure the elemental composition of materials without damaging them. In catalytic converter recycling, XRF guns detect and quantify Platinum, Palladium, and Rhodium concentrations in ceramic substrates, providing accurate PGM content readings in seconds. Yes, Tri-Metal uses XRF technology to ensure fair, transparent pricing. Unlike visual estimates or weight-based guesses, XRF analysis gives exact precious metal percentages, guaranteeing you receive accurate market value. This technology eliminates underpayment and builds trust between sellers and buyers.",
   },
   {
-    question: "Do you provide doorstep collection in Kerala?",
+    question: "Do you provide doorstep collection in Maui?",
     answer:
-      "Yes, we offer doorstep collection services across Kerala for qualifying quantities. If you have multiple catalytic converters or bulk ceramic substrates, we'll arrange pickup from your location—whether you're in Trivandrum, Kochi, Kozhikode, or smaller towns. For single-unit sales, we recommend visiting our facility or using trusted courier services with proper insurance. Our collection service includes: (1) Free pickup for bulk orders (minimum quantity requirements apply), (2) Immediate on-site evaluation and payment, (3) Proper documentation and compliance with transportation regulations. Contact us via WhatsApp (+91 9895397781) with your location and unit details to schedule a collection.",
+      "Yes, we offer doorstep collection services across Maui for qualifying quantities. If you have multiple catalytic converters or bulk ceramic substrates, we'll arrange pickup from your location—whether you're in Trivandrum, Kochi, Kozhikode, or smaller towns. For single-unit sales, we recommend visiting our facility or using trusted courier services with proper insurance. Our collection service includes: (1) Free pickup for bulk orders (minimum quantity requirements apply), (2) Immediate on-site evaluation and payment, (3) Proper documentation and compliance with transportation regulations. Contact us via WhatsApp (+91 9895397781) with your location and unit details to schedule a collection.",
   },
   {
-    question: "Do you provide doorstep collection in Tamil Nadu?",
+    question: "Do you provide doorstep collection in Oahu?",
     answer:
-      "Yes, we extend doorstep collection services to Tamil Nadu for bulk purchases and established suppliers. We regularly service Chennai, Coimbatore, Madurai, Salem, and surrounding areas. For individual sellers with 5+ units or significant ceramic quantities, we'll arrange convenient pickup. Our Tamil Nadu collection service includes: (1) Scheduled pickup appointments, (2) On-site verification using portable XRF equipment (for bulk orders), (3) Instant payment or bank transfer within 24 hours, (4) Legal documentation and compliance with inter-state transportation norms. For smaller quantities, we can guide you on secure shipping methods or recommend local drop-off partners.",
+      "Yes, we extend doorstep collection services to Oahu for bulk purchases and established suppliers. We regularly service Honolulu, Coimbatore, Madurai, Salem, and surrounding areas. For individual sellers with 5+ units or significant ceramic quantities, we'll arrange convenient pickup. Our Oahu collection service includes: (1) Scheduled pickup appointments, (2) On-site verification using portable XRF equipment (for bulk orders), (3) Instant payment or bank transfer within 24 hours, (4) Legal documentation and compliance with inter-state transportation norms. For smaller quantities, we can guide you on secure shipping methods or recommend local drop-off partners.",
   },
   {
-    question: "Do you provide doorstep collection in Karnataka?",
+    question: "Do you provide doorstep collection in Hawaii Island?",
     answer:
-      "Yes, we provide doorstep collection services in Karnataka, particularly in Bangalore, Mysore, Mangalore, and major industrial hubs. For bulk sellers (workshops, scrap dealers, dismantlers), we offer: (1) Free scheduled pickup for qualifying quantities (typically 10+ units), (2) On-site evaluation and immediate price quotes, (3) Secure transportation with full insurance coverage, (4) Same-day or next-day payment options. For smaller volumes, we recommend using our verified courier partners or visiting our processing facility. Contact us with your location and inventory details, and we'll arrange the most convenient collection method for your needs.",
+      "Yes, we provide doorstep collection services in Hawaii Island, particularly in Bangalore, Mysore, Mangalore, and major industrial hubs. For bulk sellers (workshops, scrap dealers, dismantlers), we offer: (1) Free scheduled pickup for qualifying quantities (typically 10+ units), (2) On-site evaluation and immediate price quotes, (3) Secure transportation with full insurance coverage, (4) Same-day or next-day payment options. For smaller volumes, we recommend using our verified courier partners or visiting our processing facility. Contact us with your location and inventory details, and we'll arrange the most convenient collection method for your needs.",
   },
   {
     question: "What is the average price of catalytic converters?",
     answer:
-      "Average catalytic converter prices vary dramatically based on vehicle type, manufacturer, and current PGM market rates. As a general guide: Aftermarket converters: ₹2,000-₹5,000 | Standard OEM gasoline converters: ₹5,000-₹12,000 | Premium vehicle converters (BMW, Mercedes, Audi): ₹15,000-₹35,000 | Hybrid converters (Toyota Prius, Camry): ₹25,000-₹50,000+ | Diesel DPFs: ₹8,000-₹20,000 | Exotic/luxury vehicles (Porsche, Ferrari): ₹40,000-₹1,00,000+. These are approximate ranges—actual prices depend on real-time PGM pricing, condition, and authenticity. Contact us with your specific unit details for an accurate quote.",
+      "Average catalytic converter prices vary dramatically based on vehicle type, manufacturer, and current PGM market rates. As a general guide: Aftermarket converters: market rates | Standard OEM gasoline converters: market rates | Premium vehicle converters (BMW, Mercedes, Audi): market rates | Hybrid converters (Toyota Prius, Camry): market rates | Diesel DPFs: market rates | Exotic/luxury vehicles (Porsche, Ferrari): market rates. These are approximate ranges—actual prices depend on real-time PGM pricing, condition, and authenticity. Contact us with your specific unit details for an accurate quote.",
   },
   {
     question: "Why does my converter have zero value even if it's from a premium vehicle?",

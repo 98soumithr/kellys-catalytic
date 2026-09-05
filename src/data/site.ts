@@ -2,23 +2,21 @@
  * Contact endpoints and navigation, mirroring the reference site exactly.
  * Values are overridable per deployment via NEXT_PUBLIC_* env vars.
  */
-export const PHONE_E164 = process.env.NEXT_PUBLIC_PHONE_E164 ?? '+919895397781';
-export const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? '+91 9895397781';
-export const WHATSAPP_URL = process.env.NEXT_PUBLIC_WHATSAPP_URL ?? 'https://wa.me/919895397781';
+export const PHONE_E164 = process.env.NEXT_PUBLIC_PHONE_E164 ?? '+18085550100';
+export const PHONE_DISPLAY = process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? '(808) 555-0100';
+export const WHATSAPP_URL = process.env.NEXT_PUBLIC_WHATSAPP_URL ?? 'https://wa.me/18085550100';
 export const GOOGLE_REVIEW_URL =
-  process.env.NEXT_PUBLIC_GOOGLE_REVIEW_URL ?? 'https://g.page/r/CYlTCXv453w8EBE/review';
-export const FACEBOOK_URL =
-  'https://www.facebook.com/share/1E9cCSuXiJ/?mibextid=wwXIfr';
-export const INSTAGRAM_URL =
-  'https://www.instagram.com/catalit.in?igsh=MW00enQwZXZseDY2Yg%3D%3D&utm_source=qr';
-export const EMAIL = process.env.NEXT_PUBLIC_EMAIL ?? 'info@kellyscatalytic.com';
+  process.env.NEXT_PUBLIC_GOOGLE_REVIEW_URL ?? '#';
+export const FACEBOOK_URL = process.env.NEXT_PUBLIC_FACEBOOK_URL ?? '#';
+export const INSTAGRAM_URL = process.env.NEXT_PUBLIC_INSTAGRAM_URL ?? '#';
+export const EMAIL = process.env.NEXT_PUBLIC_EMAIL ?? 'info@tri-metal.com';
 export const TEL_HREF = `tel:${PHONE_E164}`;
 
 export const SITE_TITLE =
   process.env.NEXT_PUBLIC_SITE_TITLE ??
-  "Kelly's Catalytic | Top Catalytic Converter Buyer in India";
+  'Tri-Metal | Catalytic Converter & E-Waste Buyer in Hawaii';
 export const SITE_DESCRIPTION =
-  "Kelly's Catalytic offers top cash payouts for catalytic converters. Serving Kerala, Tamilnadu, KA & all over India. Get an instant valuation and spot cash today!";
+  'Tri-Metal Company LLC buys catalytic converters, autocatalyst ceramics, oxygen sensors and e-waste across Maui and the Hawaiian Islands. Send a photo for a valuation.';
 
 export const MAIN_NAV = [
   { label: 'Home', href: '/' },
@@ -49,11 +47,11 @@ export const FOOTER_QUICK_LINKS = [
 ] as const;
 
 export const FOOTER_SERVICE_AREAS = [
-  'Kerala',
-  'Tamil Nadu',
-  'Karnataka',
-  'Andhra Pradesh',
-  'Telangana',
+  'Maui',
+  'Oahu',
+  'Hawaii Island',
+  'Kauai',
+  'Molokai',
 ] as const;
 
 export const FOOTER_LEGAL_LINKS = [
@@ -62,7 +60,7 @@ export const FOOTER_LEGAL_LINKS = [
   { label: 'Cookie Policy', href: '#' },
 ] as const;
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://kellyscatalytic.com';
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://tri-metal.com';
 
 /** The 13 canonical paths published in the reference sitemap.xml. */
 export const SITEMAP_ROUTES = [

@@ -38,7 +38,7 @@ export function Header() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={asset(LOGO)}
-                alt="Kelly's Catalytic Logo"
+                alt="Tri-Metal Company LLC logo"
                 width={480}
                 height={96}
                 loading="eager"

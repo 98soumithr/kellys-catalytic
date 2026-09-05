@@ -22,8 +22,8 @@ export function WhatsAppCta() {
                 Ready to <span className="gradient-text">Get Paid?</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Join thousands of satisfied sellers across South India. Get instant quotes, fair
-                pricing, and immediate payouts for your catalytic converters and e-waste.
+                Send a photo of your converter and we will quote it against current platinum,
+                palladium and rhodium prices. Serving Maui and the Hawaiian Islands.
               </p>
               <a
                 className="btn-hover-glow inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-bold rounded-2xl text-xl shadow-xl hover:shadow-2xl"
@@ -46,7 +46,7 @@ export function WhatsAppCta() {
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={asset(WHATSAPP_QR_IMAGE)}
-                      alt="Connect with Kelly's Catalytic on WhatsApp"
+                      alt="Message Tri-Metal on WhatsApp"
                       width={1147}
                       height={1147}
                       loading="lazy"

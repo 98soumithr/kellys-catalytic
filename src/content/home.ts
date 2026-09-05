@@ -16,9 +16,9 @@ export const WHATSAPP_QR_IMAGE = "/images/connect-with-catalit-on-whatsapp.png";
 
 export const HOME_FEATURES = [
   { title: "Since 2020", description: "We're in this business since 2020" },
-  { title: "Coverage", description: "Active in Kerala, TN, Karnataka & beyond." },
+  { title: "Coverage", description: "Active in Maui, Oahu, Hawaii Island & beyond." },
   { title: "Top Payout", description: "Highest rates for all converter types." },
-  { title: "#1 Ranked", description: "Leading the industry in precise XRF analysis and ethical recycling." },
+  { title: "Trusted Buyer", description: "Precise XRF analysis and ethical recycling." },
 ] as const;
 
 export interface BuyCategory {
@@ -32,7 +32,7 @@ export const WHAT_WE_BUY: BuyCategory[] = [
     title: "Catalytic Converters",
     body:
       "We buy every make and model of automotive catalytic converter, from passenger cars to heavy-duty commercial vehicles. Whether it is a Ceramic, Metallic, or Pre-filter unit, our experts use a comprehensive database to identify the exact value based on its precious metal content (Platinum, Palladium, and Rhodium). We accept units in any condition—whole, cut, or rusted.",
-    image: { src: "/images/catalytic-converter-recycling-at-catalit-facility.webp", alt: "Catalytic converter recycling at Kelly's Catalytic facility", width: 1600, height: 900 },
+    image: { src: "/images/catalytic-converter-recycling-at-catalit-facility.webp", alt: "Catalytic converter recycling at Tri-Metal facility", width: 1600, height: 900 },
   },
   {
     title: "Autocatalyst Ceramics",
@@ -68,7 +68,7 @@ export const SELL_STEPS: SellStep[] = [
   {
     title: "Collection",
     body:
-      "We have 6 dedicated collection teams strategically positioned across South India covering Kerala, Tamil Nadu, Karnataka, Andhra Pradesh, and Telangana. Once you accept our offer, schedule a pickup at your convenience. Our teams reach even remote locations to collect your materials safely and professionally.",
+      "We operate collection routes across Hawaii covering Maui, Oahu, Hawaii Island, Kauai, and Molokai. Once you accept our offer, schedule a pickup at your convenience. Our teams reach even remote locations to collect your materials safely and professionally.",
   },
   {
     title: "Instant Cashout",
@@ -78,7 +78,7 @@ export const SELL_STEPS: SellStep[] = [
   {
     title: "Done!",
     body:
-      "You're now part of our priority network! Enjoy exclusive benefits including first access to premium pricing updates, priority collection scheduling, and special rates for bulk quantities. Build a long-term partnership with South India's most trusted buyer and maximize your earnings on every transaction.",
+      "You're now part of our priority network! Enjoy exclusive benefits including first access to premium pricing updates, priority collection scheduling, and special rates for bulk quantities. Build a long-term partnership with Hawaii's most trusted buyer and maximize your earnings on every transaction.",
   },
 ];
 
@@ -128,13 +128,13 @@ export const RESOURCE_CARDS: ResourceCard[] = [
   },
   {
     title: "Anti-Theft & Law Compliance",
-    description: "Setting the gold standard for ethics and legal transparency in the Indian recycling sector.",
+    description: "Setting the gold standard for ethics and legal transparency in the Hawaii recycling sector.",
     href: "/resource-center/anti-theft-compliance",
     image: { src: "/images/card-anti-theft-law-compliance.webp", width: 1600, height: 901 },
   },
   {
     title: "Our Service Areas: Nationwide Coverage",
-    description: "Connecting sellers from Delhi to Chennai through a trusted procurement network.",
+    description: "Connecting sellers from Hilo to Honolulu through a trusted procurement network.",
     href: "/resource-center/service-areas",
     image: { src: "/images/card-our-service-areas-nationwide-coverage.webp", width: 1600, height: 1067 },
   },

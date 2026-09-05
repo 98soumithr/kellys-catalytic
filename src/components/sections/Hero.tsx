@@ -13,8 +13,8 @@ export function Hero() {
               !!
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-              Professional valuation and instant spot payouts for converters, ceramics, and e-waste
-              across South India.
+              Professional valuation and prompt payment for converters, ceramics, sensors and
+              e-waste across Maui and the Hawaiian Islands.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

@@ -56,7 +56,7 @@ export const ARTICLES: Record<string, Article> = {
       },
       {
         "type": "paragraph",
-        "text": "We have established a robust logistics network enabling us to serve workshops, scrap yards, and dealerships across India efficiently.",
+        "text": "We have established a robust logistics network enabling us to serve workshops, scrap yards, and dealerships across Hawaii efficiently.",
         "className": "text-lg text-gray-600 leading-relaxed"
       },
       {
@@ -68,17 +68,17 @@ export const ARTICLES: Record<string, Article> = {
         "cardClass": "bg-slate-50 p-6 rounded-3xl",
         "cards": [
           {
-            "title": "North India",
+            "title": "North Hawaii",
             "titleClass": "text-xl font-bold mb-3 text-emerald-800",
             "paragraphClass": "text-gray-600",
             "listClass": "",
             "paragraphs": [
-              "We are the leading Catalytic Converter Buyer in Delhi."
+              "We are the leading Catalytic Converter Buyer in Hilo."
             ],
             "items": []
           },
           {
-            "title": "West India",
+            "title": "West Hawaii",
             "titleClass": "text-xl font-bold mb-3 text-emerald-800",
             "paragraphClass": "text-gray-600",
             "listClass": "",
@@ -88,12 +88,12 @@ export const ARTICLES: Record<string, Article> = {
             "items": []
           },
           {
-            "title": "South India",
+            "title": "Hawaii",
             "titleClass": "text-xl font-bold mb-3 text-emerald-800",
             "paragraphClass": "text-gray-600",
             "listClass": "",
             "paragraphs": [
-              "From being a specialized Catalytic Converter Buyer in Karnataka (Bangalore) to our strong presence in Kerala and Chennai."
+              "From being a specialized Catalytic Converter Buyer in Hawaii Island (Bangalore) to our strong presence in Maui and Honolulu."
             ],
             "items": []
           }
@@ -180,12 +180,12 @@ export const ARTICLES: Record<string, Article> = {
       },
       {
         "type": "heading",
-        "text": "The Indian Market Shift (BS4 to BS6)",
+        "text": "The Hawaii Market Shift (BS4 to BS6)",
         "className": "text-2xl font-semibold mb-6 text-gray-800"
       },
       {
         "type": "paragraph",
-        "text": "The transition from Bharat Stage IV (BS4) to Bharat Stage VI (BS6) emission norms brought a paradigm shift in Indian automotive engineering. BS6 standards mandated significantly stricter emission limits, necessitating more advanced catalytic converters with higher loadings of Platinum Group Metals (PGMs) to achieve the required catalytic efficiency, thus increasing the inherent recycling value of modern end-of-life converters.",
+        "text": "The transition from Bharat Stage IV (BS4) to Bharat Stage VI (BS6) emission norms brought a paradigm shift in Hawaii automotive engineering. BS6 standards mandated significantly stricter emission limits, necessitating more advanced catalytic converters with higher loadings of Platinum Group Metals (PGMs) to achieve the required catalytic efficiency, thus increasing the inherent recycling value of modern end-of-life converters.",
         "className": "text-lg text-gray-600 leading-relaxed"
       },
       {
@@ -680,7 +680,7 @@ export const ARTICLES: Record<string, Article> = {
       },
       {
         "type": "paragraph",
-        "text": "Kelly's Catalytic operates with a zero-tolerance policy towards stolen goods. We enforce a strict Know Your Customer (KYC) protocol to protect legitimate scrap dealers and workshops while deterring catalytic converter theft.",
+        "text": "Tri-Metal operates with a zero-tolerance policy towards stolen goods. We enforce a strict Know Your Customer (KYC) protocol to protect legitimate scrap dealers and workshops while deterring catalytic converter theft.",
         "className": "text-lg text-gray-600 leading-relaxed"
       },
       {
