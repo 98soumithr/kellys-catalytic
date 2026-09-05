@@ -26,7 +26,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <span className="text-2xl font-bold mb-4 block text-emerald-600">Catalit</span>
+            <span className="text-2xl font-bold mb-4 block text-emerald-600">Kelly&apos;s Catalytic</span>
             <p className="text-gray-600 text-sm leading-relaxed mb-4">
               South India&apos;s most trusted buyer of catalytic converters, ceramics, and e-waste.
               Fair pricing, instant payouts, and professional service since 2020.
@@ -107,7 +107,7 @@ export function Footer() {
         <div className="border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-500 text-sm text-center md:text-left">
-              © 2026 Catalit. All rights reserved.
+              © 2026 Kelly&apos;s Catalytic. All rights reserved.
             </p>
             <div className="flex space-x-6">
               {FOOTER_LEGAL_LINKS.map((link) => (

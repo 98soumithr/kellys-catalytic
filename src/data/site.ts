@@ -11,12 +11,14 @@ export const FACEBOOK_URL =
   'https://www.facebook.com/share/1E9cCSuXiJ/?mibextid=wwXIfr';
 export const INSTAGRAM_URL =
   'https://www.instagram.com/catalit.in?igsh=MW00enQwZXZseDY2Yg%3D%3D&utm_source=qr';
-export const EMAIL = 'info@catalit.com';
+export const EMAIL = process.env.NEXT_PUBLIC_EMAIL ?? 'info@kellyscatalytic.com';
 export const TEL_HREF = `tel:${PHONE_E164}`;
 
-export const SITE_TITLE = 'Catalit | Top Catalytic Converter Buyer in India';
+export const SITE_TITLE =
+  process.env.NEXT_PUBLIC_SITE_TITLE ??
+  "Kelly's Catalytic | Top Catalytic Converter Buyer in India";
 export const SITE_DESCRIPTION =
-  'Catalit offers top cash payouts for catalytic converters. Serving Kerala, Tamilnadu, KA & all over India. Get an instant valuation and spot cash today!';
+  "Kelly's Catalytic offers top cash payouts for catalytic converters. Serving Kerala, Tamilnadu, KA & all over India. Get an instant valuation and spot cash today!";
 
 export const MAIN_NAV = [
   { label: 'Home', href: '/' },
@@ -60,7 +62,7 @@ export const FOOTER_LEGAL_LINKS = [
   { label: 'Cookie Policy', href: '#' },
 ] as const;
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://catalit.in';
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://kellyscatalytic.com';
 
 /** The 13 canonical paths published in the reference sitemap.xml. */
 export const SITEMAP_ROUTES = [

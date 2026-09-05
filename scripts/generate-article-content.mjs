@@ -7,8 +7,11 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { DIRS, ROOT } from './config.mjs';
+import { rebrandDeep } from './brand.mjs';
 
-const articles = JSON.parse(await fs.readFile(path.join(DIRS.data, 'articles.json'), 'utf8'));
+const articles = rebrandDeep(
+  JSON.parse(await fs.readFile(path.join(DIRS.data, 'articles.json'), 'utf8')),
+);
 const manifest = JSON.parse(await fs.readFile(path.join(DIRS.data, 'asset-manifest.json'), 'utf8'));
 
 const localByUrl = Object.fromEntries(

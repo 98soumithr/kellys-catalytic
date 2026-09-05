@@ -45,7 +45,7 @@ export function WhatsAppCta() {
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={WHATSAPP_QR_IMAGE}
-                      alt="Connect with Catalit on WhatsApp"
+                      alt="Connect with Kelly's Catalytic on WhatsApp"
                       width={1147}
                       height={1147}
                       loading="lazy"

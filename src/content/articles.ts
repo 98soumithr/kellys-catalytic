@@ -680,7 +680,7 @@ export const ARTICLES: Record<string, Article> = {
       },
       {
         "type": "paragraph",
-        "text": "Catalit operates with a zero-tolerance policy towards stolen goods. We enforce a strict Know Your Customer (KYC) protocol to protect legitimate scrap dealers and workshops while deterring catalytic converter theft.",
+        "text": "Kelly's Catalytic operates with a zero-tolerance policy towards stolen goods. We enforce a strict Know Your Customer (KYC) protocol to protect legitimate scrap dealers and workshops while deterring catalytic converter theft.",
         "className": "text-lg text-gray-600 leading-relaxed"
       },
       {

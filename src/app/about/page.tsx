@@ -41,12 +41,12 @@ export default function AboutPage() {
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{ backgroundImage: 'url("/images/about-hero-background.webp")' }}
           role="img"
-          aria-label="Catalit's state-of-the-art recycling facility"
+          aria-label="Kelly's Catalytic state-of-the-art recycling facility"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-slate-900/40" />
         <div className="container mx-auto relative z-10 text-center">
           <Reveal as="h1" className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
-            About <span className="text-emerald-400">Catalit</span>
+            About <span className="text-emerald-400">Kelly&apos;s Catalytic</span>
           </Reveal>
           <Reveal
             as="p"

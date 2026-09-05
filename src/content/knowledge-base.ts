@@ -1,7 +1,7 @@
 /**
  * /knowledge-base content. Radix keeps closed accordion panels hidden, so these
- * answers were captured by expanding each item — see
- * scripts/extract-knowledge-base.mjs.
+ * answers were captured by expanding each item.
+ * Regenerate: node scripts/generate-content.mjs
  */
 import type { FaqItem } from './faq';
 
@@ -41,7 +41,7 @@ export const KNOWLEDGE_BASE_ITEMS: FaqItem[] = [
   {
     question: "How much will a junkyard pay for my catalytic converter?",
     answer:
-      "Junkyard prices for catalytic converters vary widely—typically ranging from ₹2,000 to ₹15,000+ depending on the vehicle type, converter condition, and current PGM prices. Standard aftermarket converters might fetch ₹2,000-₹4,000, while OEM gasoline converters can bring ₹5,000-₹10,000. Premium vehicle converters (BMW, Mercedes, hybrid vehicles) can command ₹15,000-₹40,000 or more. However, many junkyards lack proper valuation tools and may undervalue your unit. At Catalit, we use XRF analysis and database lookups to ensure you receive fair market value based on actual precious metal content, not generic estimates.",
+      "Junkyard prices for catalytic converters vary widely—typically ranging from ₹2,000 to ₹15,000+ depending on the vehicle type, converter condition, and current PGM prices. Standard aftermarket converters might fetch ₹2,000-₹4,000, while OEM gasoline converters can bring ₹5,000-₹10,000. Premium vehicle converters (BMW, Mercedes, hybrid vehicles) can command ₹15,000-₹40,000 or more. However, many junkyards lack proper valuation tools and may undervalue your unit. At Kelly's Catalytic, we use XRF analysis and database lookups to ensure you receive fair market value based on actual precious metal content, not generic estimates.",
   },
   {
     question: "Does a rusty exterior reduce the price?",
@@ -76,7 +76,7 @@ export const KNOWLEDGE_BASE_ITEMS: FaqItem[] = [
   {
     question: "Is it better to sell the converter whole or de-canned?",
     answer:
-      "Selling the converter intact (whole) is generally easier and safer, especially if you're unsure about de-canning procedures. However, de-canning (removing the ceramic substrate from the steel shell) can sometimes yield better prices because it allows direct assessment of the ceramic weight and quality, eliminating guesswork. At Catalit, we accept both forms and provide fair valuations for either. If you de-can, handle the ceramic carefully—avoid breaking it into powder, as loose dust is harder to evaluate and may result in lower offers. Whole units are preferred for traceability and compliance purposes.",
+      "Selling the converter intact (whole) is generally easier and safer, especially if you're unsure about de-canning procedures. However, de-canning (removing the ceramic substrate from the steel shell) can sometimes yield better prices because it allows direct assessment of the ceramic weight and quality, eliminating guesswork. At Kelly's Catalytic, we accept both forms and provide fair valuations for either. If you de-can, handle the ceramic carefully—avoid breaking it into powder, as loose dust is harder to evaluate and may result in lower offers. Whole units are preferred for traceability and compliance purposes.",
   },
   {
     question: "Does the weight or size of the steel shell affect the price?",
@@ -86,7 +86,7 @@ export const KNOWLEDGE_BASE_ITEMS: FaqItem[] = [
   {
     question: "What is an XRF analyzer and do you use one?",
     answer:
-      "XRF (X-Ray Fluorescence) analyzers are precision instruments that measure the elemental composition of materials without damaging them. In catalytic converter recycling, XRF guns detect and quantify Platinum, Palladium, and Rhodium concentrations in ceramic substrates, providing accurate PGM content readings in seconds. Yes, Catalit uses XRF technology to ensure fair, transparent pricing. Unlike visual estimates or weight-based guesses, XRF analysis gives exact precious metal percentages, guaranteeing you receive accurate market value. This technology eliminates underpayment and builds trust between sellers and buyers.",
+      "XRF (X-Ray Fluorescence) analyzers are precision instruments that measure the elemental composition of materials without damaging them. In catalytic converter recycling, XRF guns detect and quantify Platinum, Palladium, and Rhodium concentrations in ceramic substrates, providing accurate PGM content readings in seconds. Yes, Kelly's Catalytic uses XRF technology to ensure fair, transparent pricing. Unlike visual estimates or weight-based guesses, XRF analysis gives exact precious metal percentages, guaranteeing you receive accurate market value. This technology eliminates underpayment and builds trust between sellers and buyers.",
   },
   {
     question: "Do you provide doorstep collection in Kerala?",

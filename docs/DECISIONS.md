@@ -205,3 +205,48 @@ Neither is a serious barrier — contrast is close, not illegible, and the affec
 text is supplementary. Fidelity wins here, per the brief's explicit trade-off
 clause. Everything actionable *was* fixed: `aria-prohibited-attr` on the /about
 hero (a real defect) took that page from 91 to 96.
+
+---
+
+### D-020 — Rebranded to Kelly's Catalytic
+**Context.** The project was built as a faithful replica of catalit.in, which is
+branded "Catalit". The owner confirmed the site should carry the **Kelly's
+Catalytic** brand instead.
+
+**Decision.** The rename lives in the *content pipeline* (`scripts/brand.mjs`),
+not in the generated files. `src/content/**` is regenerated from the reference, so
+a find-and-replace there would be silently undone the next time anyone re-runs the
+extractors — the same class of bug as D-015.
+
+Assets are still resolved by their **original** alt text, because the manifest
+predates the rebrand; only rendered strings are substituted.
+
+**Consequence for the visual suite.** The screenshot comparison measures this
+build against catalit.in. Now that the brand differs, that comparison is no longer
+a pass/fail gate for brand-bearing regions:
+
+| | Before rebrand | After |
+|---|---|---|
+| Comparisons passing | 91/91 | 81/91 |
+| Median diff | 0.231% | 0.439% |
+| Height mismatches | 0 | 11 |
+
+The divergence was verified to be brand-driven rather than a layout regression:
+`compare-geometry` at 390px shows **one** section changing height (+29px — the
+longer name wraps an extra line in the sustainability paragraph), with every
+section below offset by exactly that amount and every other section still Δ0.
+
+The reference comparison remains useful for catching *unintended* layout drift,
+but its absolute thresholds no longer apply. To make it a regression gate again,
+re-baseline `public/screenshots/reference/` from the current local captures.
+
+---
+
+### D-021 — The logo is a placeholder
+**Context.** The reference logo is a raster PNG with "Catalit" baked into the
+pixels; it cannot be renamed by editing text.
+**Decision.** `public/images/brand-logo.png` is a **generated placeholder
+wordmark** (480×96, emerald `#059669` to match the footer brand colour), recorded
+in the asset manifest as *original — created for this project* rather than
+first-party reference art. Replace it with real brand artwork at the same
+dimensions; nothing else needs to change.

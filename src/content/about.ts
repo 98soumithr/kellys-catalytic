@@ -1,4 +1,4 @@
-/** /about content, transcribed from the reference site's rendered DOM. */
+/** /about content, transcribed from the reference DOM. Regenerate: node scripts/generate-content.mjs */
 export interface TitledBlock {
   title: string;
   body: string;
@@ -10,7 +10,7 @@ export const ABOUT_STORY = {
   badge: "Established 2020",
   title: "Our Story",
   body:
-    "Founded in 2020 in Erattupetta, Kerala, Catalit began with a simple mission: to bring transparency and efficiency to the catalytic converter recycling industry. Backed by the expertise of Infinitoq, we started by serving Kottayam and its neighboring districts. Through relentless hard work and a \"round-the-clock\" dedication to our clients, we have evolved year after year to become an industry leader.",
+    "Founded in 2020 in Erattupetta, Kerala, Kelly's Catalytic began with a simple mission: to bring transparency and efficiency to the catalytic converter recycling industry. Backed by the expertise of Infinitoq, we started by serving Kottayam and its neighboring districts. Through relentless hard work and a \"round-the-clock\" dedication to our clients, we have evolved year after year to become an industry leader.",
 };
 
 export const WHAT_WE_DO_HEADING = {
@@ -39,7 +39,7 @@ export const WHAT_WE_DO: TitledBlock[] = [
 export const WHY_PARTNER_HEADING = {
   title: "Why Partner With Us",
   intro:
-    "Today, Catalit covers every corner of South India. Our growth is fueled by a \"customer-first\" philosophy that includes:",
+    "Today, Kelly's Catalytic covers every corner of South India. Our growth is fueled by a \"customer-first\" philosophy that includes:",
 };
 
 export const WHY_PARTNER: TitledBlock[] = [
@@ -68,13 +68,13 @@ export const WHY_PARTNER: TitledBlock[] = [
 export const VISION = {
   title: "Our Vision",
   body:
-    "\"At Catalit, we aren't just collectors; we are partners in sustainability. We remain flexible, adaptive, and committed to providing a professional recycling bridge between our clients and the global green economy.\"",
+    "\"At Kelly's Catalytic, we aren't just collectors; we are partners in sustainability. We remain flexible, adaptive, and committed to providing a professional recycling bridge between our clients and the global green economy.\"",
 };
 
 export const NETWORK = {
   title: "Join Our Growing Network",
   intro:
-    "Catalit is expanding across South India, and we want you to grow with us. Whether you are an industry veteran, an ambitious newcomer, or an independent supplier/dealer, we offer a professional platform to maximize your potential in the catalytic converter and E-waste market.",
+    "Kelly's Catalytic is expanding across South India, and we want you to grow with us. Whether you are an industry veteran, an ambitious newcomer, or an independent supplier/dealer, we offer a professional platform to maximize your potential in the catalytic converter and E-waste market.",
   quote: "\"Let's build a sustainable future together.\"",
   contact: "Connect with us today: +91 9895397781",
 };
@@ -91,14 +91,14 @@ export const NETWORK_CARDS: TitledBlock[] = [
       "Looking for a reliable partner for your inventory? We offer the most competitive market valuations, spot settlements, and seamless collection services.",
   },
   {
-    title: "Why Catalit?",
+    title: "Why Kelly's Catalytic?",
     body:
       "Enjoy dedicated customer support, exclusive network perks, and the trust of a brand backed by Infinitoq.",
   },
 ];
 
 export const ABOUT_CTA = {
-  title: "Ready to Experience the Catalit Difference?",
+  title: "Ready to Experience the Kelly's Catalytic Difference?",
   body: "Join thousands of satisfied partners who trust us for their recycling needs. Get a quote today.",
-  button: "Start Selling with Catalit",
+  button: "Start Selling with Kelly's Catalytic",
 };

@@ -37,7 +37,7 @@ export function Header() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={LOGO}
-                alt="Catalit Logo"
+                alt="Kelly's Catalytic Logo"
                 width={480}
                 height={96}
                 loading="eager"

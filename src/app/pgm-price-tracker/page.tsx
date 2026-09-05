@@ -36,7 +36,7 @@ export default function PgmPriceTrackerPage() {
               Market Insight
             </span>
             <p className="text-gray-700 text-sm italic">
-              Note: Market prices are subject to global volatility. Catalit provides these live
+              Note: Market prices are subject to global volatility. Kelly&apos;s Catalytic provides these live
               rates for informational purposes to help our partners estimate the value of their
               materials transparently.
             </p>

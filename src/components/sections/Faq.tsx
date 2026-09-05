@@ -22,7 +22,7 @@ export function Faq() {
           </div>
           <h2 className="text-4xl font-bold mb-4 gradient-text">Frequently Asked Questions</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Everything you need to know about selling catalytic converters to Catalit. Can&apos;t
+            Everything you need to know about selling catalytic converters to Kelly&apos;s Catalytic. Can&apos;t
             find your answer? Contact us anytime!
           </p>
         </Reveal>

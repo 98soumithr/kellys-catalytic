@@ -26,7 +26,7 @@ export function Sustainability() {
                 <span className="gradient-text">Sustainable Resource Recovery</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Catalit has grown from a local collector into South India&apos;s premier partner for
+                Kelly&apos;s Catalytic has grown from a local collector into South India&apos;s premier partner for
                 catalytic converter and PGM recycling. With six dedicated teams across Kerala, Tamil
                 Nadu, and Karnataka, we provide expert on-site valuation, instant settlements, and a
                 commitment to eco-friendly practices. Whether it&apos;s automotive components or

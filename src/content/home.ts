@@ -10,7 +10,7 @@ export interface ImageRef {
   height: number;
 }
 
-export const LOGO = "/images/catalit-logo.png";
+export const LOGO = "/images/brand-logo.png";
 export const HERO_IMAGE = "/images/catalytic-converter-ready-for-recycling-and-cash.webp";
 export const WHATSAPP_QR_IMAGE = "/images/connect-with-catalit-on-whatsapp.png";
 
@@ -32,7 +32,7 @@ export const WHAT_WE_BUY: BuyCategory[] = [
     title: "Catalytic Converters",
     body:
       "We buy every make and model of automotive catalytic converter, from passenger cars to heavy-duty commercial vehicles. Whether it is a Ceramic, Metallic, or Pre-filter unit, our experts use a comprehensive database to identify the exact value based on its precious metal content (Platinum, Palladium, and Rhodium). We accept units in any condition—whole, cut, or rusted.",
-    image: { src: "/images/catalytic-converter-recycling-at-catalit-facility.webp", alt: "Catalytic converter recycling at Catalit facility", width: 1600, height: 900 },
+    image: { src: "/images/catalytic-converter-recycling-at-catalit-facility.webp", alt: "Catalytic converter recycling at Kelly's Catalytic facility", width: 1600, height: 900 },
   },
   {
     title: "Autocatalyst Ceramics",
