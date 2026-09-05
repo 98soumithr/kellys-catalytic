@@ -32,12 +32,16 @@ export function WhatWeBuy() {
                       alt={item.image.alt}
                       width={item.image.width}
                       height={item.image.height}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-[400px] object-cover transform hover:scale-105 transition-transform duration-500"
                     />
                   </div>
                 </div>
                 <div className={reversed ? 'lg:order-1' : undefined}>
-                  <h3 className="text-3xl md:text-4xl font-bold mb-6 gradient-text">{item.title}</h3>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-6 gradient-text">
+                    {item.title}
+                  </h3>
                   <div className="space-y-4">
                     <p className="text-gray-600 leading-relaxed text-lg">{item.body}</p>
                   </div>

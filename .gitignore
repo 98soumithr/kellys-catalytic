@@ -13,3 +13,5 @@ public/screenshots/**/*.png
 !public/screenshots/**/.gitkeep
 docs/data/*.json
 .reference-cache/
+tsconfig.tsbuildinfo
+next-env.d.ts

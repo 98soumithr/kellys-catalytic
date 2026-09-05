@@ -18,6 +18,36 @@ const FAVICON =
 /** Assets served from the reference project's own CDN bucket are first-party. */
 const FIRST_PARTY_HOST = /horizons-cdn\.hostinger\.com$/;
 
+/**
+ * CSS background images carry no alt text, so a hash-named file would be the only
+ * option. Derive a meaningful, DETERMINISTIC name from the card each one backs,
+ * so re-running this script reproduces the same filenames the components import.
+ */
+async function backgroundNameMap() {
+  const map = new Map();
+  const add = (url, name) => url && map.set(url.split('?')[0], name);
+  const read = async (file) => {
+    try {
+      return JSON.parse(await fs.readFile(path.join(DIRS.data, file), 'utf8'));
+    } catch {
+      return null;
+    }
+  };
+  for (const [file, key] of [
+    ['home-content.json', 'resources'],
+    ['resource-center.json', 'cards'],
+  ]) {
+    const data = await read(file);
+    for (const card of data?.[key] ?? []) add(card.image, 'card-' + slugify(card.title));
+  }
+  // Backgrounds with no card to name them after.
+  add(
+    'https://horizons-cdn.hostinger.com/333c4379-891e-4db0-91bd-117b6cdf76dd/59822e68bbe733abaa28e6624eccc33c.png',
+    'about-hero-background',
+  );
+  return map;
+}
+
 const slugify = (s) =>
   (s || '')
     .toLowerCase()
@@ -67,8 +97,18 @@ async function main() {
     }
   }
 
+  // Referenced from a Tailwind arbitrary-value background on /about, so it never
+  // appears as an <img> or in an inline background-image declaration.
+  found.set('https://www.transparenttextures.com/patterns/cubes.png', {
+    alt: 'texture cubes',
+    usedOn: ['/about'],
+    rendered: new Set(),
+    background: true,
+  });
+
   found.set(FAVICON, { alt: 'catalit favicon', usedOn: ['(favicon)'], rendered: new Set() });
 
+  const bgNames = await backgroundNameMap();
   const manifest = [];
   const usedNames = new Set();
   let i = 0;
@@ -93,7 +133,10 @@ async function main() {
         ? ctExt === 'jpeg' ? 'jpg' : ctExt
         : 'jpg';
 
-    let base = slugify(meta.alt) || slugify(url.split('?')[0].split('/').pop().split('.')[0]).slice(0, 24);
+    let base =
+      slugify(meta.alt) ||
+      bgNames.get(url.split('?')[0]) ||
+      slugify(url.split('?')[0].split('/').pop().split('.')[0]).slice(0, 24);
     let name = `${base}.${ext}`;
     let n = 2;
     while (usedNames.has(name)) name = `${base}-${n++}.${ext}`;

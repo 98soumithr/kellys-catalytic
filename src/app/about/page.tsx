@@ -39,7 +39,8 @@ export default function AboutPage() {
       <section className="relative py-20 px-4 bg-gradient-to-br from-emerald-900 to-slate-900 text-white overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
-          style={{ backgroundImage: 'url("/images/about-hero-background.png")' }}
+          style={{ backgroundImage: 'url("/images/about-hero-background.webp")' }}
+          role="img"
           aria-label="Catalit's state-of-the-art recycling facility"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-slate-900/40" />

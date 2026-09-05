@@ -196,7 +196,7 @@ export const ARTICLES: Record<string, Article> = {
         "cols": "grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4",
         "images": [
           {
-            "src": "/images/catalytic-converter-with-part-number-and-serial.jpg",
+            "src": "/images/catalytic-converter-with-part-number-and-serial.webp",
             "alt": "Catalytic converter with part number and serial marking",
             "width": 1280,
             "height": 960
@@ -208,13 +208,13 @@ export const ARTICLES: Record<string, Article> = {
             "height": 495
           },
           {
-            "src": "/images/multiple-catalytic-converters-mounted-on-manifold.jpg",
+            "src": "/images/multiple-catalytic-converters-mounted-on-manifold.webp",
             "alt": "Multiple catalytic converters mounted on manifold",
             "width": 1200,
             "height": 800
           },
           {
-            "src": "/images/catalytic-converter-in-industrial-facility.png",
+            "src": "/images/catalytic-converter-in-industrial-facility.webp",
             "alt": "Catalytic converter in industrial facility",
             "width": 1376,
             "height": 768
@@ -296,25 +296,25 @@ export const ARTICLES: Record<string, Article> = {
         "cols": "grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4",
         "images": [
           {
-            "src": "/images/ceramic-monolith-honeycomb-structure-close-up.jpg",
+            "src": "/images/ceramic-monolith-honeycomb-structure-close-up.webp",
             "alt": "Ceramic monolith honeycomb structure close-up",
             "width": 1020,
             "height": 576
           },
           {
-            "src": "/images/catalytic-converter-with-ceramic-monolith-and-recovered.jpg",
+            "src": "/images/catalytic-converter-with-ceramic-monolith-and-recovered.webp",
             "alt": "Catalytic converter with ceramic monolith and recovered materials",
             "width": 1200,
             "height": 594
           },
           {
-            "src": "/images/catalytic-converter-disassembly-showing-ceramic-components.png",
+            "src": "/images/catalytic-converter-disassembly-showing-ceramic-components.webp",
             "alt": "Catalytic converter disassembly showing ceramic components",
             "width": 756,
             "height": 432
           },
           {
-            "src": "/images/recovered-ceramic-monolith-pieces-in-recycling-process.jpg",
+            "src": "/images/recovered-ceramic-monolith-pieces-in-recycling-process.webp",
             "alt": "Recovered ceramic monolith pieces in recycling process",
             "width": 1000,
             "height": 667
@@ -379,7 +379,7 @@ export const ARTICLES: Record<string, Article> = {
         "cols": "grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4",
         "images": [
           {
-            "src": "/images/collection-of-oxygen-sensors-showing-various-types.jpg",
+            "src": "/images/collection-of-oxygen-sensors-showing-various-types.webp",
             "alt": "Collection of oxygen sensors showing various types",
             "width": 768,
             "height": 576
@@ -391,13 +391,13 @@ export const ARTICLES: Record<string, Article> = {
             "height": 486
           },
           {
-            "src": "/images/oxygen-sensor-installed-in-engine-with-blue.jpg",
+            "src": "/images/oxygen-sensor-installed-in-engine-with-blue.webp",
             "alt": "Oxygen sensor installed in engine with blue wire",
             "width": 1002,
             "height": 631
           },
           {
-            "src": "/images/oxygen-sensor-held-in-hand-showing-wear.png",
+            "src": "/images/oxygen-sensor-held-in-hand-showing-wear.webp",
             "alt": "Oxygen sensor held in hand showing wear and deposits",
             "width": 819,
             "height": 541
@@ -462,7 +462,7 @@ export const ARTICLES: Record<string, Article> = {
         "cols": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4",
         "images": [
           {
-            "src": "/images/collection-of-computer-ram-memory-modules.jpg",
+            "src": "/images/collection-of-computer-ram-memory-modules.webp",
             "alt": "Collection of computer RAM memory modules",
             "width": 807,
             "height": 533
@@ -480,7 +480,7 @@ export const ARTICLES: Record<string, Article> = {
             "height": 683
           },
           {
-            "src": "/images/blue-bin-with-sorted-e-waste-materials.jpg",
+            "src": "/images/blue-bin-with-sorted-e-waste-materials.webp",
             "alt": "Blue bin with sorted e-waste materials",
             "width": 1600,
             "height": 1067
@@ -568,25 +568,25 @@ export const ARTICLES: Record<string, Article> = {
         "cols": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4",
         "images": [
           {
-            "src": "/images/warehouse-storage-facility-with-catalytic-converters-on.jpg",
+            "src": "/images/warehouse-storage-facility-with-catalytic-converters-on.webp",
             "alt": "Warehouse storage facility with catalytic converters on shelves",
             "width": 1344,
             "height": 768
           },
           {
-            "src": "/images/industrial-recycling-facility-with-catalytic-converters-and.jpg",
+            "src": "/images/industrial-recycling-facility-with-catalytic-converters-and.webp",
             "alt": "Industrial recycling facility with catalytic converters and processing equipment",
             "width": 1600,
             "height": 893
           },
           {
-            "src": "/images/catalytic-converters-collected-in-industrial-facility.jpg",
+            "src": "/images/catalytic-converters-collected-in-industrial-facility.webp",
             "alt": "Catalytic converters collected in industrial facility",
             "width": 1600,
             "height": 893
           },
           {
-            "src": "/images/recycling-and-storage-center-with-organized-catalytic.jpg",
+            "src": "/images/recycling-and-storage-center-with-organized-catalytic.webp",
             "alt": "Recycling and storage center with organized catalytic converters",
             "width": 1600,
             "height": 893
@@ -657,7 +657,7 @@ export const ARTICLES: Record<string, Article> = {
         "cols": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4",
         "images": [
           {
-            "src": "/images/financial-market-data-and-pgm-price-trends.jpg",
+            "src": "/images/financial-market-data-and-pgm-price-trends.webp",
             "alt": "Financial market data and PGM price trends",
             "width": 1600,
             "height": 1067

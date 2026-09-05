@@ -1,14 +1,15 @@
-import { Reveal } from '@/components/ui/Reveal';
 import { PHONE_DISPLAY, TEL_HREF, WHATSAPP_URL } from '@/data/site';
+import { HERO_IMAGE } from '@/content/home';
 
 export function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center pt-24 pb-12 px-4">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <Reveal className="space-y-8">
+          <div className="space-y-8 animate-fade-in-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900">
-              Turn your spent <span className="gradient-text">Catalytic Converter</span> into cash !!
+              Turn your spent <span className="gradient-text">Catalytic Converter</span> into cash
+              !!
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
               Professional valuation and instant spot payouts for converters, ceramics, and e-waste
@@ -30,16 +31,19 @@ export function Hero() {
                 {PHONE_DISPLAY}
               </a>
             </div>
-          </Reveal>
+          </div>
 
-          <Reveal className="relative flex justify-center lg:justify-end" direction="none">
+          <div className="relative flex justify-center lg:justify-end animate-fade-in">
             <div className="image-overlay rounded-2xl overflow-hidden shadow-2xl border-4 border-white w-full max-w-lg lg:max-w-full">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/catalytic-converter-ready-for-recycling-and-cash.jpg"
+                src={HERO_IMAGE}
                 alt="Catalytic converter ready for recycling and cash conversion"
                 width={1600}
                 height={893}
+                loading="eager"
+                fetchPriority="high"
+                decoding="async"
                 className="w-full h-64 md:h-80 lg:h-96 object-cover rounded-xl transform hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -51,7 +55,7 @@ export function Hero() {
               <p className="text-3xl font-bold gradient-text">100%</p>
               <p className="text-sm text-gray-600 font-medium">Fair Pricing</p>
             </div>
-          </Reveal>
+          </div>
         </div>
       </div>
     </section>

@@ -23,10 +23,22 @@ export function ResourceCards() {
               delay={(i % 4) * 0.08}
               className="group relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 aspect-[4/5] flex flex-col justify-end"
             >
-              <div
-                className="absolute inset-0 bg-cover bg-center z-0 transition-transform duration-700 group-hover:scale-110"
-                style={{ backgroundImage: `url("${card.image.src}")` }}
+              {/*
+                * The reference paints this with a CSS background-image. Rendered as a
+                * lazily-loaded <img> instead: object-cover/center is pixel-identical to
+                * bg-cover/bg-center (verified by the screenshot diff suite), but a CSS
+                * background cannot be deferred and these eight cards are below the fold.
+                */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={card.image.src}
+                alt=""
                 aria-hidden="true"
+                width={card.image.width}
+                height={card.image.height}
+                loading="lazy"
+                decoding="async"
+                className="absolute inset-0 w-full h-full object-cover object-center z-0 transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/40 z-[1]" aria-hidden="true" />
               <div

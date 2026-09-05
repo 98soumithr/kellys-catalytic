@@ -115,6 +115,8 @@ export function ArticleBlocks({ blocks }: { blocks: Block[] }) {
                   alt={image.alt}
                   width={image.width}
                   height={image.height}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>

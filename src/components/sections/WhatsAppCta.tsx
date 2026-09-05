@@ -1,6 +1,7 @@
 import { MessageCircle } from 'lucide-react';
 import { Reveal } from '@/components/ui/Reveal';
 import { WHATSAPP_URL } from '@/data/site';
+import { WHATSAPP_QR_IMAGE } from '@/content/home';
 
 const STATS = [
   { value: '100%', label: 'Fair Pricing' },
@@ -29,7 +30,7 @@ export function WhatsAppCta() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <MessageCircle size={24} className="mr-3" />
+                <MessageCircle width={28} height={28} className="mr-3" />
                 Sell Now via WhatsApp
               </a>
               <p className="text-sm text-gray-500 mt-6">
@@ -43,10 +44,12 @@ export function WhatsAppCta() {
                   <div className="bg-white rounded-lg flex items-center justify-center border border-gray-100 overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src="/images/connect-with-catalit-on-whatsapp.png"
+                      src={WHATSAPP_QR_IMAGE}
                       alt="Connect with Catalit on WhatsApp"
                       width={1147}
                       height={1147}
+                      loading="lazy"
+                      decoding="async"
                       className="w-48 h-48 md:w-64 md:h-64 object-contain"
                     />
                   </div>

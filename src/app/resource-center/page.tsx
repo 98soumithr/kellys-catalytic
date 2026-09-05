@@ -28,10 +28,16 @@ export default function ResourceCenterPage() {
               <Link className="absolute inset-0 z-20" href={card.href}>
                 <span className="sr-only">{card.srLabel}</span>
               </Link>
-              <div
-                className="absolute inset-0 bg-cover bg-center z-0 transition-transform duration-700 group-hover:scale-110"
+              {/* Lazily-loaded <img> in place of the reference's CSS background — see
+                  the note in ResourceCards.tsx. Pixel-identical, but deferrable. */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={card.image}
+                alt=""
                 aria-hidden="true"
-                style={{ backgroundImage: `url("${card.image}")` }}
+                loading="lazy"
+                decoding="async"
+                className="absolute inset-0 w-full h-full object-cover object-center z-0 transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/40 z-[1]" aria-hidden="true" />
               <div

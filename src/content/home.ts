@@ -1,6 +1,7 @@
 /**
  * Homepage content, transcribed from the reference site's rendered DOM.
- * Image paths point at the locally stored copies in public/images.
+ * Image paths resolve through docs/data/asset-manifest.json.
+ * Regenerate: node scripts/generate-content.mjs
  */
 export interface ImageRef {
   src: string;
@@ -8,6 +9,10 @@ export interface ImageRef {
   width: number;
   height: number;
 }
+
+export const LOGO = "/images/catalit-logo.png";
+export const HERO_IMAGE = "/images/catalytic-converter-ready-for-recycling-and-cash.webp";
+export const WHATSAPP_QR_IMAGE = "/images/connect-with-catalit-on-whatsapp.png";
 
 export const HOME_FEATURES = [
   { title: "Since 2020", description: "We're in this business since 2020" },
@@ -27,13 +32,13 @@ export const WHAT_WE_BUY: BuyCategory[] = [
     title: "Catalytic Converters",
     body:
       "We buy every make and model of automotive catalytic converter, from passenger cars to heavy-duty commercial vehicles. Whether it is a Ceramic, Metallic, or Pre-filter unit, our experts use a comprehensive database to identify the exact value based on its precious metal content (Platinum, Palladium, and Rhodium). We accept units in any condition—whole, cut, or rusted.",
-    image: { src: "/images/catalytic-converter-recycling-at-catalit-facility.jpg", alt: "Catalytic converter recycling at Catalit facility", width: 1600, height: 900 },
+    image: { src: "/images/catalytic-converter-recycling-at-catalit-facility.webp", alt: "Catalytic converter recycling at Catalit facility", width: 1600, height: 900 },
   },
   {
     title: "Autocatalyst Ceramics",
     body:
       "We purchase loose ceramic monoliths (Converter powder) in all forms—whether they are whole bricks, broken pieces, or crushed dust. Since the value of ceramic scrap is based entirely on the concentration of precious metals, we use XRF Machine, precision weighing and transparent grading to ensure you receive the full market value. Don't let your loose ceramic go to waste we can help you to turn your ceramic into instant cash",
-    image: { src: "/images/autocatalyst-ceramic-scrap-for-recycling.jpg", alt: "Autocatalyst ceramic scrap for recycling", width: 1600, height: 900 },
+    image: { src: "/images/autocatalyst-ceramic-scrap-for-recycling.webp", alt: "Autocatalyst ceramic scrap for recycling", width: 1600, height: 900 },
   },
   {
     title: "Oxygen Sensors",
@@ -45,7 +50,7 @@ export const WHAT_WE_BUY: BuyCategory[] = [
     title: "E-Waste",
     body:
       "Electronic waste contains valuable metals including gold, silver, copper, and palladium. We purchase various types of e-waste from computers, mobile phones, circuit boards, and industrial electronics. Our comprehensive e-waste buying program helps businesses and individuals responsibly recycle outdated electronics. Computer motherboards, processors, RAM modules, and hard drives all contain recoverable precious metals.",
-    image: { src: "/images/e-waste-and-electronic-scrap-for-recycling.jpg", alt: "E-waste and electronic scrap for recycling", width: 1160, height: 600 },
+    image: { src: "/images/e-waste-and-electronic-scrap-for-recycling.webp", alt: "E-waste and electronic scrap for recycling", width: 1160, height: 600 },
   },
 ];
 
@@ -89,19 +94,19 @@ export const RESOURCE_CARDS: ResourceCard[] = [
     title: "The Automotive Catalytic Converter",
     description: "Essential emission control devices containing valuable Platinum Group Metals.",
     href: "/resource-center/automotive-catalytic-converter",
-    image: { src: "/images/card-the-automotive-catalytic-converter.png", width: 1376, height: 768 },
+    image: { src: "/images/card-the-automotive-catalytic-converter.webp", width: 1376, height: 768 },
   },
   {
     title: "Ceramic Monolith & Recovery",
     description: "High-grade ceramic cordierite cores containing concentrated precious metal deposits.",
     href: "/resource-center/ceramic-monolith",
-    image: { src: "/images/card-ceramic-monolith-recovery.png", width: 756, height: 432 },
+    image: { src: "/images/card-ceramic-monolith-recovery.webp", width: 756, height: 432 },
   },
   {
     title: "Oxygen (Lambda) Sensors",
     description: "Precision sensors utilizing Platinum electrodes to monitor engine air-fuel ratios.",
     href: "/resource-center/oxygen-sensor",
-    image: { src: "/images/card-oxygen-lambda-sensors.png", width: 819, height: 541 },
+    image: { src: "/images/card-oxygen-lambda-sensors.webp", width: 819, height: 541 },
   },
   {
     title: "E-Waste Management",
@@ -113,24 +118,24 @@ export const RESOURCE_CARDS: ResourceCard[] = [
     title: "The Converter Recycling Process",
     description: "A transparent, 4-step data-driven journey from collection to high-purity refining.",
     href: "/resource-center/converter-recycling-process",
-    image: { src: "/images/card-the-converter-recycling-process.jpg", width: 1600, height: 893 },
+    image: { src: "/images/card-the-converter-recycling-process.webp", width: 1600, height: 893 },
   },
   {
     title: "Material Recovery & PGM Prices",
     description: "Real-time insights into the global economics of Platinum, Palladium, and Rhodium.",
     href: "/resource-center/material-recovery-pgm-prices",
-    image: { src: "/images/card-material-recovery-pgm-prices.jpg", width: 1600, height: 1067 },
+    image: { src: "/images/card-material-recovery-pgm-prices.webp", width: 1600, height: 1067 },
   },
   {
     title: "Anti-Theft & Law Compliance",
     description: "Setting the gold standard for ethics and legal transparency in the Indian recycling sector.",
     href: "/resource-center/anti-theft-compliance",
-    image: { src: "/images/card-anti-theft-law-compliance.jpg", width: 1600, height: 901 },
+    image: { src: "/images/card-anti-theft-law-compliance.webp", width: 1600, height: 901 },
   },
   {
     title: "Our Service Areas: Nationwide Coverage",
     description: "Connecting sellers from Delhi to Chennai through a trusted procurement network.",
     href: "/resource-center/service-areas",
-    image: { src: "/images/card-our-service-areas-nationwide-coverage.jpg", width: 1600, height: 1067 },
+    image: { src: "/images/card-our-service-areas-nationwide-coverage.webp", width: 1600, height: 1067 },
   },
 ];

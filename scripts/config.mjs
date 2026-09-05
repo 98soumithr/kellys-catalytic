@@ -68,12 +68,30 @@ export async function settlePage(page, { backToTop = true } = {}) {
       await new Promise((r) => setTimeout(r, 130));
     }
     window.scrollTo(0, document.body.scrollHeight);
-    await new Promise((r) => setTimeout(r, 500));
+    await new Promise((r) => setTimeout(r, 900));
   });
   if (backToTop) {
     await page.evaluate(() => window.scrollTo(0, 0));
     await page.waitForTimeout(500);
   }
+
+  /*
+   * Reveal animations are driven by framer-motion through INLINE styles, so the
+   * CSS animation freeze below cannot finish them. Wait until nothing on the page
+   * is still partially transparent from a reveal before shooting, or the two
+   * sides get photographed at different points in their animations.
+   */
+  await page
+    .waitForFunction(
+      () =>
+        ![...document.querySelectorAll('[style*="opacity"]')].some((el) => {
+          const o = Number(getComputedStyle(el).opacity);
+          return o > 0.01 && o < 0.99;
+        }),
+      null,
+      { timeout: 8000 },
+    )
+    .catch(() => {});
   // Freeze any residual transitions so captures are deterministic.
   await page.addStyleTag({
     content: `*,*::before,*::after{animation-duration:0s!important;animation-delay:0s!important;transition-duration:0s!important;transition-delay:0s!important;caret-color:transparent!important}`,

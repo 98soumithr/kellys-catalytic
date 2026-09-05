@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { MAIN_NAV, RESOURCE_LINKS, WHATSAPP_URL } from '@/data/site';
+import { LOGO } from '@/content/home';
 
 /**
  * Fixed header. Transparent at the top of the page; on scroll it swaps to the
@@ -35,10 +36,12 @@ export function Header() {
             <Link className="block" href="/">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/catalit-logo.png"
+                src={LOGO}
                 alt="Catalit Logo"
-                width={1600}
-                height={320}
+                width={480}
+                height={96}
+                loading="eager"
+                fetchPriority="high"
                 className="h-6 md:h-8 w-auto object-contain transition-all duration-300"
               />
             </Link>
