@@ -3,6 +3,7 @@ import { Reveal } from '@/components/ui/Reveal';
 import { SiteShell } from '@/components/layout/SiteShell';
 import { SHELL } from '@/data/wrappers';
 import { RESOURCE_CENTER, RESOURCE_CENTER_CARDS } from '@/content/resource-center';
+import { asset } from '@/lib/asset';
 
 export default function ResourceCenterPage() {
   return (
@@ -32,7 +33,7 @@ export default function ResourceCenterPage() {
                   the note in ResourceCards.tsx. Pixel-identical, but deferrable. */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={card.image}
+                src={asset(card.image)}
                 alt=""
                 aria-hidden="true"
                 loading="lazy"

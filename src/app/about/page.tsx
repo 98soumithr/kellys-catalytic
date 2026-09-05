@@ -28,6 +28,7 @@ import {
   WHY_PARTNER_HEADING,
 } from '@/content/about';
 import { TEL_HREF } from '@/data/site';
+import { asset } from '@/lib/asset';
 
 const WHAT_WE_DO_ICONS = [Car, Cpu, Leaf];
 const WHY_ICONS = [Users, Truck, TrendingUp, ShieldCheck];
@@ -39,7 +40,7 @@ export default function AboutPage() {
       <section className="relative py-20 px-4 bg-gradient-to-br from-emerald-900 to-slate-900 text-white overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
-          style={{ backgroundImage: 'url("/images/about-hero-background.webp")' }}
+          style={{ backgroundImage: `url("${asset('/images/about-hero-background.webp')}")` }}
           role="img"
           aria-label="Kelly's Catalytic state-of-the-art recycling facility"
         />
@@ -201,7 +202,7 @@ export default function AboutPage() {
           <div className="bg-gradient-to-r from-emerald-600 to-teal-600 rounded-3xl p-12 text-center text-white shadow-2xl relative overflow-hidden">
             <div
               className="absolute top-0 left-0 w-full h-full opacity-10"
-              style={{ backgroundImage: 'url("/images/texture-cubes.png")' }}
+              style={{ backgroundImage: `url("${asset('/images/texture-cubes.png')}")` }}
             />
             <div className="relative z-10">
               <h2 className="text-3xl md:text-5xl font-bold mb-6">{ABOUT_CTA.title}</h2>

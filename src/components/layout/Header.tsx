@@ -6,6 +6,7 @@ import { ChevronDown, Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { MAIN_NAV, RESOURCE_LINKS, WHATSAPP_URL } from '@/data/site';
 import { LOGO } from '@/content/home';
+import { asset } from '@/lib/asset';
 
 /**
  * Fixed header. Transparent at the top of the page; on scroll it swaps to the
@@ -36,7 +37,7 @@ export function Header() {
             <Link className="block" href="/">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={LOGO}
+                src={asset(LOGO)}
                 alt="Kelly's Catalytic Logo"
                 width={480}
                 height={96}

@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import localFont from 'next/font/local';
 import { SITE_DESCRIPTION, SITE_TITLE } from '@/data/site';
+import { asset } from '@/lib/asset';
 import '@/styles/globals.css';
 
 const poppins = localFont({
@@ -26,9 +27,9 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
   generator: 'Hostinger Horizons',
   icons: {
-    icon: '/icons/favicon.png',
-    apple: '/icons/favicon.png',
-    shortcut: '/icons/favicon.png',
+    icon: asset('/icons/favicon.png'),
+    apple: asset('/icons/favicon.png'),
+    shortcut: asset('/icons/favicon.png'),
   },
 };
 

@@ -1,5 +1,6 @@
 import { Reveal } from '@/components/ui/Reveal';
 import { WHAT_WE_BUY } from '@/content/home';
+import { asset } from '@/lib/asset';
 
 export function WhatWeBuy() {
   return (
@@ -28,7 +29,7 @@ export function WhatWeBuy() {
                   <div className="image-overlay rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src={item.image.src}
+                      src={asset(item.image.src)}
                       alt={item.image.alt}
                       width={item.image.width}
                       height={item.image.height}

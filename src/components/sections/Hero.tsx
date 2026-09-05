@@ -1,5 +1,6 @@
 import { PHONE_DISPLAY, TEL_HREF, WHATSAPP_URL } from '@/data/site';
 import { HERO_IMAGE } from '@/content/home';
+import { asset } from '@/lib/asset';
 
 export function Hero() {
   return (
@@ -37,7 +38,7 @@ export function Hero() {
             <div className="image-overlay rounded-2xl overflow-hidden shadow-2xl border-4 border-white w-full max-w-lg lg:max-w-full">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={HERO_IMAGE}
+                src={asset(HERO_IMAGE)}
                 alt="Catalytic converter ready for recycling and cash conversion"
                 width={1600}
                 height={893}

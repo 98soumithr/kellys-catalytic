@@ -1,4 +1,5 @@
 import type { Block, ListItem } from '@/content/articles';
+import { asset } from '@/lib/asset';
 
 function ListEntry({ item }: { item: ListItem }) {
   return (
@@ -111,7 +112,7 @@ export function ArticleBlocks({ blocks }: { blocks: Block[] }) {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={image.src}
+                  src={asset(image.src)}
                   alt={image.alt}
                   width={image.width}
                   height={image.height}

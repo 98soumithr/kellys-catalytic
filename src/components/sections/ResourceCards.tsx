@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Reveal } from '@/components/ui/Reveal';
 import { RESOURCE_CARDS } from '@/content/home';
+import { asset } from '@/lib/asset';
 
 export function ResourceCards() {
   return (
@@ -31,7 +32,7 @@ export function ResourceCards() {
                 */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={card.image.src}
+                src={asset(card.image.src)}
                 alt=""
                 aria-hidden="true"
                 width={card.image.width}

@@ -2,6 +2,7 @@ import { MessageCircle } from 'lucide-react';
 import { Reveal } from '@/components/ui/Reveal';
 import { WHATSAPP_URL } from '@/data/site';
 import { WHATSAPP_QR_IMAGE } from '@/content/home';
+import { asset } from '@/lib/asset';
 
 const STATS = [
   { value: '100%', label: 'Fair Pricing' },
@@ -44,7 +45,7 @@ export function WhatsAppCta() {
                   <div className="bg-white rounded-lg flex items-center justify-center border border-gray-100 overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src={WHATSAPP_QR_IMAGE}
+                      src={asset(WHATSAPP_QR_IMAGE)}
                       alt="Connect with Kelly's Catalytic on WhatsApp"
                       width={1147}
                       height={1147}
