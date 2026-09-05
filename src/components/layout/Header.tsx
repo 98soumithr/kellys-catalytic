@@ -42,7 +42,7 @@ export function Header() {
                 height={96}
                 loading="eager"
                 fetchPriority="high"
-                className="h-6 md:h-8 w-auto object-contain transition-all duration-300"
+                className="h-[41px] md:h-[54px] w-auto object-contain transition-all duration-300"
               />
             </Link>
           </div>
